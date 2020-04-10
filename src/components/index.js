@@ -1,11 +1,9 @@
-import gldButton from './button/index.js';
-import gldButton2 from './button2/index.js';
 import gldBpmnViewer from './viewer/index.js';
+import gldBpmnDesigner from './designer/index.js';
 
 const components = [
-    gldButton,
-    gldButton2,
-    gldBpmnViewer
+    gldBpmnViewer,
+    gldBpmnDesigner
 ];
 
 const install = function(Vue, opts = {}) {
@@ -19,7 +17,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 export default {
     install,
-    gldButton,
-    gldButton2,
-    gldBpmnViewer
+    gldBpmnViewer,
+    gldBpmnDesigner
 }

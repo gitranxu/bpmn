@@ -13,5 +13,10 @@ export default {
             component: resolve => require(["pages/viewer"], resolve),
             meta: { auth: true },
         },
+        {
+            path: "/designer",
+            component: resolve => require(["pages/designer"], resolve),
+            meta: { auth: true },
+        },
     ],
 };

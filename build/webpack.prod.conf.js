@@ -99,8 +99,8 @@ const config = merge(common, {
         publicPath: '/dist/',
         filename: '[name].js',
         library: 'gldBpmn',
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        libraryTarget: 'commonjs2',
+        //umdNamedDefine: true
     }
 });
 module.exports = config;

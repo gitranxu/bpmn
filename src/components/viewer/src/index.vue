@@ -3,6 +3,7 @@
 </template>
 <script>
 import bpmnDefault from './default';
+//import BpmnViewer from 'bpmn-js';
 export default {
     name: 'gldBpmnViewer',
     mounted() {

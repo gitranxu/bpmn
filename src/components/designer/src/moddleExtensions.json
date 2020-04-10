@@ -1,0 +1,24 @@
+{
+    "name": "Magic",
+    "prefix": "flowable",
+    "uri": "http://magic",
+    "xml": {
+      "tagAlias": "lowerCase"
+    },
+    "associations": [],
+    "types": [
+      {
+        "name": "field",
+        "properties": [
+            {
+              "name": "expression",
+              "type": "String"
+            },
+            {
+              "name": "string",
+              "type": "String"
+            }
+        ]
+      }
+    ]
+  }
